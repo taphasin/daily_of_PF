@@ -102,7 +102,7 @@ int main()
     	if(ch=='d' && x <= 80) {erase_ship(x,y);draw_ship(++x,y);sta = 'd';}
     	if(ch=='s' && y <= 27) {draw_ship(x,y);sta = 's';}
     	if(ch==' ' && bull < 5) {
-    		Beep(1000,200);
+    		Beep(1000,100);
 			sb = 'f';
 			numbull += 1;
 			if (numbull > 5) {numbull = 1;}
@@ -127,11 +127,11 @@ int main()
     sb4 = cursor(x4,y4 - 4);
     sb5 = cursor(x5,y5 - 4);
     printf("%c", sb1);
-	if (sb1 == '*'){b1 = 0; st--; erase_bull(x1,y1 - 2);z++;draw_score(z);Beep(1000,200);}
-	if (sb2 == '*'){b2 = 0; st--; erase_bull(x2,y2 - 2);z++;draw_score(z);Beep(1000,200);}
-	if (sb3 == '*'){b3 = 0; st--; erase_bull(x3,y3 - 2);z++;draw_score(z);Beep(1000,200);}
-	if (sb4 == '*'){b4 = 0; st--; erase_bull(x4,y4 - 2);z++;draw_score(z);Beep(1000,200);}
-	if (sb5 == '*'){b5 = 0; st--; erase_bull(x5,y5 - 2);z++;draw_score(z);Beep(1000,200);}
+	if (sb1 == '*'){b1 = 0; st--; erase_bull(x1,y1 - 2);z++;draw_score(z);Beep(1000,100);}
+	if (sb2 == '*'){b2 = 0; st--; erase_bull(x2,y2 - 2);z++;draw_score(z);Beep(1000,100);}
+	if (sb3 == '*'){b3 = 0; st--; erase_bull(x3,y3 - 2);z++;draw_score(z);Beep(1000,100);}
+	if (sb4 == '*'){b4 = 0; st--; erase_bull(x4,y4 - 2);z++;draw_score(z);Beep(1000,100);}
+	if (sb5 == '*'){b5 = 0; st--; erase_bull(x5,y5 - 2);z++;draw_score(z);Beep(1000,100);}
     
     if (sb == 'f') {
     	if(b1 == 1 && y1 >= 3) {
@@ -166,7 +166,7 @@ int main()
 	}
 	
 	
-	if (st < 40){
+	if (st < 20){
 		sy = (rand() % 4) + 2;
 		sx = (rand() % 61) + 10;
 		draw_star(sx,sy);
