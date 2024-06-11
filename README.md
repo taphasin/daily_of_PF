@@ -2,8 +2,8 @@
 
 year 1 - semester 1
 
-On each week, I needed to find a programming question,
-then solve it, and explain how does code works.
+Each week, I needed to find a programming question,
+then solved it, and explained how the code worked.
 
 Each day folder represents each week.
 
