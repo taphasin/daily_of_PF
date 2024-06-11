@@ -7,4 +7,4 @@ then solved it, and explained how the code worked.
 
 Each day folder represents each week.
 
-> this repository was fork from my old github accout.
+> this repository was fork from my old github account.
