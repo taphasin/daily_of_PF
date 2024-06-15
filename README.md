@@ -1,4 +1,4 @@
-# PROGRAMMING FUNDAMENTAL 01076103 
+# PROGRAMMING PROJECT 01076104
 
 year 1 - semester 1
 
@@ -12,6 +12,6 @@ Each day folder represents each week.
 
 ## about this subject
 ```
-PROGRAMMING FUNDAMENTAL 01076103
+PROGRAMMING PROJECT 01076104
 Introduction to fundamental concepts of procedural programming and emphasis in problem solving. Topics include data types, control structures, functions, arrays, files, pointer and the mechanics of running, testing, and debugging.
 ```
